@@ -32,7 +32,7 @@
       <div id="category" class="category my-5">
         <div class="row pt-3">
           <h2 class="h2 text-center">
-            Cari Berdasarkan Ketegori
+            Cari Berdasarkan Kategori
           </h2>
         </div>
 
