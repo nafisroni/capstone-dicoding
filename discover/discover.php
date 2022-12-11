@@ -1,52 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wilo Apps</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="src/styles/discover.css">
-    <link rel="stylesheet" href="src/styles/responsive.css">
-    <link href="./src/public/icon/favicon.png" rel="icon">
-</head>
+<?php require './src/component/head.php' ?>
   <body>
   <!-- Hero + Navbar -->
-    <div class="hero">
-        <nav class="navbar navbar-expand-lg bg-transparent pt-2">
-            <div class="container-fluid">
-              <a class="navbar-brand fw-bold" href="#">WILO APPS</a>
-              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon "></span>
-              </button>
-              <div class="collapse navbar-collapse offset-7" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Explore</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <button class="btn btn-primary nav-link fw-bold text-white" href="#">LOGIN</button>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-
-        <div class="hero-text row">
-                <h1 class="hero-title">Temukan Wisatamu</h1>
-                  
-                <p class="hero-subtitle">
-                  Ribuan tempat wisata sedang menanti kehadiran anda
-                </p>
-        </div>
-    </div>
+  <?php require './src/component/heroHeader.php' ?>
 
     <main id="main-content" class=" container-fluid my-5">
       <!-- Search Content -->
@@ -59,10 +14,7 @@
 
         <!-- Search Bar -->
             <div class="row mt-3" id="search-bar">
-                <div class="search-content my-5">
-        <!-- Search bar title -->
-        
-        <!-- search bar -->
+                <div class="search-content my-5">        
                     <div class="row mt-3">
                         <div class="col-8 offset-2">
                             <div class="row">
