@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.collapse {
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.btn-login {
+  height: 40px;
+  width: 100px;
+  background-color: #2061c1;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: auto;
+  font-weight: 500;
+}
+
+.btn-login:hover {
+  background-color: #1c4c94;
+}
+
+.hero-title {
+  background-image: url("../assets//hero.png");
+  min-height: 500px;
+  margin-top: -60px;
+}
+
+.hero h1 {
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+  font-weight: 700;
+}
+.hero p {
+  color: white;
+  text-align: center;
+}
+
+.search-bar {
+  margin: auto;
+  max-width: 600px;
+}
+
+.btn-search {
+  background-color: #ff7f23;
+  width: 80px;
+  border: none;
+  border-radius: 10px;
+  padding: auto;
+  color: white;
+}
+
+.btn-search:hover {
+  background-color: #ff6b00;
+}
+
+.main-content {
+  overflow: hidden;
+}
+
+.content-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container-item {
+  margin: 0 20px 50px 20px;
+}
+
+.btn-geser {
+  align-items: center;
+  margin: -50px 0 50px 45%;
+}
+
+.btn-left {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.btn-left:hover {
+  background-color: rgb(183, 183, 183);
+}
+
+.btn-right {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.btn-right:hover {
+  background-color: rgb(183, 183, 183);
+}
+
+.section-content {
+  background-color: #e9f2ff;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+.section-content-title h1 {
+  opacity: 1;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.section-item {
+  margin: 50px auto -50px auto;
+  width: 90%;
+}
+
+.card {
+  min-height: 400px;
+  width: 300px;
+}
+
+.btn-item {
+  color: white;
+  width: 150px;
+  min-width: 44px;
+  min-height: 44px;
+  margin: 0 auto 50px auto;
+  /* margin-top: -100px; */
+  border: none;
+  border-radius: 10px;
+  background-color: #ff7f23;
+}
+
+.btn-item:hover {
+  background-color: #ff6b00;
+}
+
+.card h3 {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card p {
+  color: white;
+  text-align: center;
+}
+
+.contact {
+  margin: 200px auto 0 auto;
+  overflow: hidden;
+}
+
+.footer-wilo {
+  text-align: center;
+  align-items: center;
+  height: 50px;
+  margin: 0 auto 0 auto;
+  padding-top: 5px;
+  color: white;
+  background-color: #1c4c94;
+}
