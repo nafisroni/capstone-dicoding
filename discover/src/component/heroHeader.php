@@ -16,6 +16,9 @@
                   <li class="nav-item">
                     <a class="btn btn-primary nav-link text-white p-1">LOGIN</a>                    
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="tambahWisata.php">Tambah Wisata</a>
+                  </li>
                 </ul>
               </div>
             </div>
